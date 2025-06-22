@@ -7,14 +7,14 @@
 ![NETLOGON Share Configuration](gpo%201.png)  
 - Created `NETLOGON` share on server `ELI01`  
 - Confirmed share permissions for domain user access  
-- *Note: File Server Resource Manager not installed (quota warning)*  
+ 
 
 ---
 
 ## Step 2: Upload Wallpaper File  
 ![Wallpaper File in Share](gpo%202.png)  
 - Added `it_wallpaper.jpg` to `\\ELI01\NETLOGON\`  
-- File properties: JPG, 21KB  
+- File properties: JPG
 - Access path: `\\ELI01\NETLOGON\it_wallpaper.jpg`  
 
 ---
@@ -23,7 +23,7 @@
 ![New GPO Creation](gpo%203.png)  
 1. Opened **Group Policy Management Console**  
 2. Created new GPO: `Set background for users`  
-3. Linked to domain: `Eil.local`  
+3. Linked to domain: `Eli.local`  
 
 ---
 
@@ -49,4 +49,4 @@
 ![GPO Security Filtering](gpo%206.png)  
 - Applied to: **Authenticated Users**  
 - Linked to: Domain root (inherits to all users)  
-- No WMI filters applied  
+ 
