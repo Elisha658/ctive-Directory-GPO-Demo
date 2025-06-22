@@ -31,19 +31,14 @@
 ![Policy Navigation](gpo%204.png)  
 - Path: `User Configuration > Policies > Administrative Templates > Desktop > Desktop`  
 - Enabled: **Desktop Wallpaper** setting  
-- Blocked user changes with:  
-  `Prohibit changes`  
-  `Allow only bitmapped wallpaper`  
 
 ---
 
 ## Step 5: Set Wallpaper Path  
 ![Wallpaper Configuration](gpo%205.png)  
-- **Wallpaper Name**: `\\ELI01\NETLOGON\it_wallpaper.jpg`  
+- **Wallpaper Name**: `\\ELI01\NETLOGON\it_wallpaper.jpg`  which is the path of where i saved the wallper
 - **Wallpaper Style**: Centered  
-- *Critical: Used UNC path for network accessibility*  
 
----
 
 ## Step 6: Scope GPO Application  
 ![GPO Security Filtering](gpo%206.png)  
